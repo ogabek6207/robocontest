@@ -10,6 +10,7 @@ void main() {
     if (d[i] == "#") {
       s += !k ? "(" : ")";
       k = !k;
+
     } else {
       s += d[i];
     }
